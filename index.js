@@ -40,6 +40,8 @@ app.post('/new-message', function(req, res) {
 
 });
 
+echo "hi";
+
 // Finally, start our server
 app.listen(PORT, function() {
   console.log('Telegram app listening on port' + PORT);
