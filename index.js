@@ -40,7 +40,7 @@ app.post('/new-message', function(req, res) {
 
 });
 
-echo "hi";
+console.log("hi");
 
 // Finally, start our server
 app.listen(PORT, function() {
